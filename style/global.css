@@ -1,0 +1,142 @@
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+body {
+  background-color: gray;
+}
+.now {
+  list-style: none;
+  display: flex;
+  margin: 240px 250px;
+  gap: 50px;
+  position: relative;
+  left: 50px;
+}
+
+.tab {
+  width: 80px;
+  height: 20px;
+  background-color: #000;
+  border: 1px solid black;
+  padding: 25px 10px;
+  color: aqua;
+  border-radius: 10px;
+  box-shadow: 1px 0 10px yellow;
+  transform: rotate();
+  transition: 3s;
+}
+.tab a {
+  text-decoration: none;
+  color: white;
+}
+
+.tab:hover {
+  background-color: rgb(11, 111, 198);
+  border: 3px solid red;
+}
+
+.you {
+  width: 80px;
+  height: 20px;
+  background-color: #000;
+  border: 1px solid black;
+  padding: 25px 10px;
+  color: aqua;
+  border-radius: 10px;
+  box-shadow: 1px 0 10px rgb(9, 183, 93);
+  transform: rotate("nurbol");
+  transition: 3s;
+}
+.you a {
+  text-decoration: none;
+  color: white;
+}
+.you:hover {
+  background-color: green;
+  border: 3px solid red;
+}
+
+.code {
+  width: 80px;
+  height: 20px;
+  transform: rotateY(180deg);
+  background-color: #000;
+  border: 1px solid black;
+  padding: 25px 10px;
+  color: aqua;
+  border-radius: 10px;
+  box-shadow: 1px 0 10px rgb(215, 18, 18);
+  transform: rotate(360deg);
+  transition: 3s;
+}
+.code a {
+  text-decoration: none;
+  color: white;
+}
+.code:hover {
+  background-color: red;
+  border: 3px solid red;
+}
+
+.rain {
+  width: 80px;
+  height: 20px;
+  background-color: #000;
+  border: 1px solid black;
+  padding: 25px 10px;
+  color: aqua;
+  border-radius: 10px;
+  box-shadow: 1px 0 10px 0;
+  transform: rotate(360deg);
+  transition: 3s;
+  animation: animate 2s;
+}
+.rain a {
+  text-decoration: none;
+  color: white;
+}
+.rain:hover {
+  background-color: rgb(0, 0, 0);
+  border: 3px solid red;
+}
+  @keyframes rain {
+    0% {
+      transform: translateX(90deg);
+    }
+    100% {
+      transform: translateX(360deg);
+    }
+  }
+  
+.myc {
+  position: relative;
+  bottom: 400px;
+  left: 870px;
+}
+
+.park {
+  color: #fff;
+}
+
+.block1 {
+  position: relative;
+  bottom: 240px;
+  color: #fff;
+}
+.block {
+  color: blue;
+}
+.block2 {
+  color: green;
+}
+
+.time {
+  width: 500px;
+  height: 30px;
+}
+
+.back {
+  height: 30px;
+  width: 500px;
+}
